@@ -39,8 +39,9 @@ venv.bak/
 .DS_Store
 
 # Project specific - media files
-input/
-output/
+# Uncomment below to ignore input/output folders
+# input/
+# output/
 
 # Logs
 *.log
