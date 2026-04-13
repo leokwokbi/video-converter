@@ -39,9 +39,11 @@ venv.bak/
 .DS_Store
 
 # Project specific - media files
-# Uncomment below to ignore input/output folders
-# input/
-# output/
+# Ignore all files in input/output except .gitkeep
+input/*
+!input/.gitkeep
+output/*
+!output/.gitkeep
 
 # Logs
 *.log
